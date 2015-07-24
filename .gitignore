@@ -57,3 +57,25 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+#ant specific
+dist/
+build/
+ 
+#netbeans specific
+core
+nbproject/*
+!nbproject/project.properties
+!nbproject/project.xml
+College/*
+ 
+#java specific
+*.class
+ 
+#general swap/backup files
+*.so
+*.log
+*.out
+*~
+*.swp
+*.lock
